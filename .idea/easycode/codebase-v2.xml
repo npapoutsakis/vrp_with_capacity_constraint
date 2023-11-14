@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/main.py" />
+    <option name="forceFullIndex" value="false" />
+    <option name="fileSummaryMaps" value="{&quot;/home/papou/Desktop/LilLygiProject&quot;:&quot;{\&quot;/main.py\&quot;:\&quot;This Python file implements a solution to the Vehicle Routing Problem with Capacity Constraints (VRP).\\n\\nThe key functions are:\\n\\n- getData() - Parses data from a file containing the VRP instance. This would include things like customer locations, demands, vehicle capacities, etc. \\n\\n- constructRoute() - Likely takes the data and constructs an initial route for the vehicles to visit customers. \\n\\n- two_opt() - Implements a 2-opt local search heuristic to try and improve the initial route. 2-opt is a common heuristic for VRP.\\n\\n- relocate() - Another local search heuristic that relocates customers in the route to try and improve it. \\n\\n- bat_algorithm() - The main algorithm that will be used to find an optimal or near-optimal solution. Likely uses the local search heuristics and some metaheuristic approach like a bat algorithm.\\n\\n- draw_scheme() - Function to draw and visualize the final routing scheme/solution. Useful for debugging and understanding the output.\\n\\nThe main() function calls getData() to parse the input data, then likely calls the bat_algorithm() as the main optimization routine to find the best routing solution.\\n\\nSo in summary, it implements a metaheuristic approach (bat algorithm) combined with local search heuristics to solve a VRP problem, reading data from a file and able to output the results.\&quot;}&quot;}" />
+  </component>
+</project>
