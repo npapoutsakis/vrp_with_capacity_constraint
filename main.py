@@ -196,7 +196,7 @@ def run(data, vehicle_capacity):
     bat_solution = bat_algorithm(G, vehicle_capacity, depot_node, num_bats=10, max_iterations=10, alpha=0.2, gamma=0.1, f_min=0.1, f_max=0.7, A=0.9)
 
     # Visualize the solutions
-    visualize_solution(G, [final_solution, bat_solution])
+    draw_scheme(G, [final_solution, bat_solution])
 
 
 # This is our main function implementing our functionality
